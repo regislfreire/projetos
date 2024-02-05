@@ -16,3 +16,4 @@ O conceito de branch paralela é muito importante durante o desenvolvimento de o
 - Git e GitHub;
 - Esse arquivo foi criado com base no treinamento Git & GitHub da Empowerdata;
 - Aprendi como funciona o Git e o Github em projetos de análise de dados com Python;
+qual quer coisa
