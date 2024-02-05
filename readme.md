@@ -8,3 +8,8 @@ O conceito de branch paralela é muito importante durante o desenvolvimento de o
 
 # vou  unir a 'nova_branch' com a branch principal 'main'
 <p>Deu certo, todas as modificações realizadas no arquivo da 'nova_branch' foram incorporados na branch 'main'.</p>
+
+<marquee direction="left">Esse é um exemplo de tag marquee. Essa tag foi descontinuada </marquee>
+
+- mais uma habilidade que aprendi. Quando estou digitando um código, posso usar o comando Ctrl+' para  abrir o git bash. 
+- depois de rodar o comando, ao fechar o terminal, meu cursor volta para a ultima linha de código escrita.</div         >
