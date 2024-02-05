@@ -7,3 +7,4 @@ Treinando *Git* e *GitHub* da Empowerdata.
 O conceito de branch paralela é muito importante durante o desenvolvimento de otimizações e novas implementações. Ela permite que seja criado uma linha de desenvolvimento paralela com o projeto e que os testes não atrapalhem na usabilidade do código principal.<p>Parece que funcionou. Possso ver o arquivo principal, sem essas modificações e posso ver o arquivo atual na 'nova_branch'.</p>
 
 # vou  unir a 'nova_branch' com a branch principal 'main'
+<p>Deu certo, todas as modificações realizadas no arquivo da 'nova_branch' foram incorporados na branch 'main'.</p>
