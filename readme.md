@@ -1,3 +1,13 @@
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Lobster&display=swap">
+<style>
+    a {
+      font-family:'Dancing Script',cursive;
+      text-align: left;
+    }
+</style>
+</head>
+
 # Arquivo para testar o uso do git e o github
 *Baseado no Treinamento Git & GitHub da Empowerdata.*
 
@@ -17,3 +27,6 @@ Para usar, devemos instalar o git em nosso computador e configurar uma conta no 
 
 *Esse comando ira gravar o arquivo no arquivo de versionamento.*
 - Com o terminal aberto, digite o seguinte comando: `git push -u origin mian`
+
+
+# <a align='right'>Régis Lima</a>
