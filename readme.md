@@ -18,5 +18,5 @@ Para usar, devemos instalar o git em nosso computador e configurar uma conta no 
 *Esse comando ira gravar o arquivo no arquivo de versionamento.*
 - Com o terminal aberto, digite o seguinte comando: `git push -u origin mian`
 
-
-<p align='right'>Régis Lima
+```
+<!--em contrução-->
