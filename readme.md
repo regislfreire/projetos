@@ -1,2 +1,2 @@
 # Esse é um arquivo de teste
-Treinando Git e GitHub
+Treinando *Git* e *GitHub*
