@@ -1,0 +1,1 @@
+Olá visitante, esse é um repositório criado para desenvolver alguns testes durante o meu curso de Python para análise de dados. Aproveitem.
