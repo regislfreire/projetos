@@ -2,8 +2,11 @@ import pyautogui
 import time
 import pandas as pd
 
-pyautogui.PAUSE = 1.5
+pyautogui.PAUSE = 0.7
 pyautogui.FAILSAFE = True
+
+# criando o dataframe com os contatos
+contatos = pd.read_csv('contatos.csv')
 
 # abrir o navegador
 pyautogui.hotkey('win')
@@ -11,13 +14,17 @@ pyautogui.write('chrome')
 pyautogui.press('enter')
 #pyautogui.hotkey('alt', 'F4')
 
-# inserir url
-pyautogui.write('https://www.instagram.com/seasqqdqrf/')
-pyautogui.press('enter')
-
-# clicar no botão de seguir Point(x=1132, y=175)
-pyautogui.click(1132, 175)
-# clicar na opção de deixar de sehguir Point(x=872, y=736)
-pyautogui.click(872, 736)
-# fechar o navegador
+for linha in contatos.index: # inserir url
+    url=str(contatos.loc[linha, 'url'])
+    pyautogui.write(url)
+    pyautogui.press('enter')
+    pyautogui.moveTo(362,146)
+    pyautogui.click()
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('space')
+    pyautogui.hotkey('shift', 'tab')
+    pyautogui.press('space')
+    pyautogui.click(x=592, y=63)
 pyautogui.hotkey('alt', 'F4')
