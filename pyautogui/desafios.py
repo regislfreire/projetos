@@ -15,6 +15,7 @@ pyautogui.press('enter')
 # desafio 1, nivel 0 (mover o cursor para o canto superior esquerdo)
 pyautogui.moveTo(x=300, y=300, duration=2)
 pyautogui.click()
+
 # desafio 2, nivel 1 (escrever o texto "Olá, PyAutoGUI")
 #pyautogui.moveTo(x=100, y=100, duration=2)
 #pyautogui.write('Olá, PyAutoGUI', interval=0.5)
