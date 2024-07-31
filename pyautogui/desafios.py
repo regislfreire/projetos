@@ -2,17 +2,28 @@
 
 import pyautogui
 import pyperclip
+import time
+#pyautogui.PAUSE = 0.5 # Definindo que para casa de comando o PyAutoGUI irá aguardar 1 segundo entre cada comando
 
-# desafio 1, nivel 0
+# abrindo bloco de notas
+pyautogui.press('win', interval=0.5)
+pyautogui.write('notepad')
+pyautogui.press('enter')
+
+# desafio 1, nivel 0 (mover o cursor para o canto superior esquerdo)
 pyautogui.moveTo(x=100, y=100, duration=2)
 
-# desafio 2, nivel 1
+# desafio 2, nivel 1 (escrever o texto "Olá, PyAutoGUI")
 pyautogui.moveTo(500,420, duration=2)
 pyautogui.click()
 pyautogui.press('enter')
+pyautogui.write('Olá, PyAutoGUI'notepad
+                )
 #pyperclip.copy('Olá, PyAutoGUI')
 #pyautogui.hotkey('ctrl', 'v')
-pyautogui.press('enter')
-pyautogui.write('Olá, PyAutoGUI', interval=0.1)
 
-Ol, PyAutoGUI
+# Fechando o Bloco de Notas
+time.sleep(10)
+pyautogui.hotkey('ctrl', 'a')
+pyautogui.press('del')
+pyautogui.hotkey('alt', 'f4')
